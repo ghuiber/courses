@@ -16,7 +16,6 @@ ext_widgets : {rCharts: ["libraries/highcharts","libraries/nvd3", "libraries/mor
 ---
 
 
-
 ## rCharts
 ![rCharts](fig/rCharts.png)
 - rCharts is a way to create interactive javascript visualizations using R
@@ -42,9 +41,7 @@ cat('<iframe src="fig/n1.html" width=100%, height=600></iframe>')
 ---
 ## nvD3 run
 
-
 <iframe src="fig/n1.html" width=100%, height=600></iframe>
-
 
 ---
 ## Slidify interactive
@@ -80,7 +77,6 @@ cat('<iframe src="fig/r1.html" width=100%, height=600></iframe>')
 ## When run
 <iframe src="fig/r1.html" width=100%, height=600></iframe>
 
-
 ---
 ## Example 2 Facetted Barplot
 ```
@@ -95,7 +91,6 @@ cat('<iframe src="fig/r2.html" width=100%, height=600></iframe>')
 <iframe src="fig/r2.html" width=100%, height=600></iframe>
 
 
-
 ---
 ## How to get the js/html or publish an rChart
 Now you can add whatever you'd like
@@ -107,7 +102,6 @@ r1$save('myPlot.html') #save as html file
 r1$publish('myPlot', host = 'gist') # save to gist, rjson required
 r1$publish('myPlot', host = 'rpubs') # save to rpubs
 ```
-
 
 
 ---
@@ -133,7 +127,6 @@ cat('<iframe src="fig/m1.html" width=100%, height=600></iframe>')
 ## morris example run
 <iframe src="fig/m1.html" width=100%, height=600></iframe>
 
-
 ---
 ## xCharts
 ```
@@ -149,7 +142,6 @@ cat('<iframe src="fig/x1.html" width=100%, height=600></iframe>')
 ## xCharts run
 <iframe src="fig/x1.html" width=100%, height=600></iframe>
 
-
 ---
 ## Leaflet
 ```
@@ -164,7 +156,6 @@ cat('<iframe src="fig/map3.html" width=100%, height=600></iframe>')
 ---
 ## Leaflet run
 <iframe src="fig/map3.html" width=100%, height=600></iframe>
-
 
 ---
 ## Rickshaw
@@ -184,7 +175,6 @@ cat('<iframe src="fig/p4.html" width=100%, height=600></iframe>')
 ## Rickshaw run
 <iframe src="fig/p4.html" width=100%, height=600></iframe>
 
-
 ---
 ## highchart
 ```
@@ -198,7 +188,6 @@ cat('<iframe src="fig/h1.html" width=100%, height=600></iframe>')
 ---
 ## highchart run
 <iframe src="fig/h1.html" width=100%, height=600></iframe>
-
 
 
 ---
