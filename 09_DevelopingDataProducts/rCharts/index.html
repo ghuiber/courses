@@ -232,7 +232,7 @@ cat(&#39;&lt;iframe src=&quot;fig/r2.html&quot; width=100%, height=600&gt;&lt;/i
   <article data-timings="">
     <p>Now you can add whatever you&#39;d like</p>
 
-<pre><code class="r">r1 &lt;- rPlot(mpg ~ wt | am + vs, data = mtcars, type = &quot;point&quot;, color = &quot;gear&quot;)
+<pre><code>r1 &lt;- rPlot(mpg ~ wt | am + vs, data = mtcars, type = &quot;point&quot;, color = &quot;gear&quot;)
 r1$print(&quot;chart1&quot;) # print out the js 
 r1$save(&#39;myPlot.html&#39;) #save as html file
 r1$publish(&#39;myPlot&#39;, host = &#39;gist&#39;) # save to gist, rjson required
