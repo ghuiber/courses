@@ -269,3 +269,5 @@ cat('<iframe src="fig/h1.html" width=100%, height=600></iframe>')
   - Otherwise, it's challenging to extend without fairly deep knowledge of the JS
     libraries that it's calling.
 - rCharts is under fairly rapid development
+
+
